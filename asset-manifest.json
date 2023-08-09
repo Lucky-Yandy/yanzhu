@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yanzhu/static/css/main.8fc21e28.css",
-    "main.js": "/yanzhu/static/js/main.9e7a19ea.js",
-    "static/media/IMG_6739.jpg": "/yanzhu/static/media/IMG_6739.e28009081da64a0d3b73.jpg",
-    "static/media/Yan-Zhu-Resume.pdf": "/yanzhu/static/media/Yan-Zhu-Resume.eb247e7729d25dd29023.pdf",
-    "static/media/deal.jpg": "/yanzhu/static/media/deal.52b05127052d503aacea.jpg",
-    "index.html": "/yanzhu/index.html",
-    "main.8fc21e28.css.map": "/yanzhu/static/css/main.8fc21e28.css.map",
-    "main.9e7a19ea.js.map": "/yanzhu/static/js/main.9e7a19ea.js.map"
+    "main.css": "/static/css/main.8fc21e28.css",
+    "main.js": "/static/js/main.9b51b6b0.js",
+    "static/media/IMG_6739.jpg": "/static/media/IMG_6739.e28009081da64a0d3b73.jpg",
+    "static/media/Yan-Zhu-Resume.pdf": "/static/media/Yan-Zhu-Resume.eb247e7729d25dd29023.pdf",
+    "static/media/deal.jpg": "/static/media/deal.52b05127052d503aacea.jpg",
+    "index.html": "/index.html",
+    "main.8fc21e28.css.map": "/static/css/main.8fc21e28.css.map",
+    "main.9b51b6b0.js.map": "/static/js/main.9b51b6b0.js.map"
   },
   "entrypoints": [
     "static/css/main.8fc21e28.css",
-    "static/js/main.9e7a19ea.js"
+    "static/js/main.9b51b6b0.js"
   ]
 }
