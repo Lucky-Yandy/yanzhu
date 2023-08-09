@@ -1,7 +1,7 @@
 {
   "name": "yanzhu-portfolio",
   "version": "0.1.0",
-  "homepage": "https://yanzhu.tech",
+  "homepage": "https://yanzhu.tech/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
