@@ -1,0 +1,119 @@
+.contact {
+  font-family: sans-serif; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:30px;
+  background-color: #bccad6;
+  margin-top: 0px;
+  height: 100vh;
+
+}
+
+.hands {
+  width: 100%;
+  max-width: 50%;
+  height: auto;
+  padding: 30px;
+ 
+}
+
+.contactpart {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif; 
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  
+  padding: 10px;
+  background-color: #667292;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.light-placeholder::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.link-img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s ease;
+}
+button[type="submit"]:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+
+.link-img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding:30px;
+    height: auto;
+  }
+
+  .hands {
+    max-width: 100%;
+  
+  }
+
+  .contactpart {
+   
+    padding-left: 30px;
+    
+  }
+
+  .link-img {
+    width: 100px;
+    height: 100px;
+  }
+}
