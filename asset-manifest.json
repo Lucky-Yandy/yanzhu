@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.03d275cf.css",
-    "main.js": "/static/js/main.8008ea7f.js",
+    "main.css": "/static/css/main.6d8db19b.css",
+    "main.js": "/static/js/main.3a1cedb9.js",
     "static/media/IMG_6739.jpg": "/static/media/IMG_6739.e28009081da64a0d3b73.jpg",
     "static/media/Yan-Zhu-Resume.pdf": "/static/media/Yan-Zhu-Resume.eb247e7729d25dd29023.pdf",
     "static/media/deal.jpg": "/static/media/deal.52b05127052d503aacea.jpg",
     "index.html": "/index.html",
-    "main.03d275cf.css.map": "/static/css/main.03d275cf.css.map",
-    "main.8008ea7f.js.map": "/static/js/main.8008ea7f.js.map"
+    "main.6d8db19b.css.map": "/static/css/main.6d8db19b.css.map",
+    "main.3a1cedb9.js.map": "/static/js/main.3a1cedb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d275cf.css",
-    "static/js/main.8008ea7f.js"
+    "static/css/main.6d8db19b.css",
+    "static/js/main.3a1cedb9.js"
   ]
 }
