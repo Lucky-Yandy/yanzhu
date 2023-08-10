@@ -67,7 +67,7 @@ function App() {
   
       <div className="Content">
         <Routes>
-          <Route path='/yanzhu.tech/' element={<Home />} /> 
+          <Route path='/' element={<Home />} /> 
           <Route path='/home/' element={<Home />} /> 
           <Route path='/project/' element={<Project />} /> 
           <Route path='/resume/' element={<Resume />} /> 
