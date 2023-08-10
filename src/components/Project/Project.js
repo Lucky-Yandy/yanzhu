@@ -9,29 +9,31 @@ const Project = () => (
       <div className="projectPanel">
           <h1 className="project-title"> Currency Convert</h1>
           <img src={img} alt="img" />  
-           <div className="project-info"> link to first app
-            <a href="https://github.com/Lucky-Yandy"/>
+           <div className="project-info"> 
+            <a href="https://github.com/Lucky-Yandy">This is the first app I made. Check it out:<span>http://link to first app</span></a>
           </div>
       </div>
       <div className="projectPanel">
-          <h1 className="project-title">second project name</h1>
+          <h1 className="project-title">Second Project</h1>
           <img src={img} alt="img" />  
-          <div className="project-info"> link to secont app
-            <a href="https://github.com/Lucky-Yandy"/>
+          <div className="project-info">
+           
+            <a href="https://github.com/Lucky-Yandy"  >This is the first app I made. Check it out:<span>http://link to second project</span>
+           </a>
           </div>
       </div>
       <div className="projectPanel">
-          <h1 className="project-title" > third project name.</h1>
+          <h1 className="project-title" > Third Project</h1>
           <img src={img} alt="img" />  
-          <div className="project-info"> link to third  app .
-            <a href="https://github.com/Lucky-Yandy"/>
+          <div className="project-info"> 
+            <a href="https://github.com/Lucky-Yandy">This is the third app I made. Check it out:<span>http://link to third  project</span></a>
           </div>
       </div>
       <div className="projectPanel">
-          <h1 className="project-title"> fouth project name.</h1>
+          <h1 className="project-title">Fourth Project </h1>
           <img src={img} alt="img" /> 
-          <div className="project-info">link to currency covert app .
-            <a href="https://github.com/Lucky-Yandy"/>
+          <div className="project-info">
+            <a href="https://github.com/Lucky-Yandy">This is the fourth app I made. Check it out:<span>http://link to fourth Project</span></a>
           </div>
       </div>
       </div>
