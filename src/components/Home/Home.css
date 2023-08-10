@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .aboutme{
-    font-family: sans-serif;
+    /*font-family: sans-serif;
     background-color:#bccad6;
     display: flex;
     justify-content: center;
@@ -10,25 +10,42 @@
     gap:30px;
     justify-content:space-evenly;
     height: auto; 
+    padding-top:50px;*/
+    
+  font-family: sans-serif; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:30px;
+  background-color: #bccad6;
+  margin-top: 0px;
+  height: 100vh;
      
 }
 
 .mypicture{ 
-   box-sizing:border-box;
+   /*box-sizing:border-box;
    width:100%;
-   height: 100vh; 
-   padding:30px;   
-   align-items:center;   
+   height: 100%; 
+   padding:30px; 
+   align-items:center;  */ 
+   width: 100%;
+  max-width: 50%;
+  height: auto;
+  padding: 30px;
 }
     
 .about{
 
-    padding:30px;
+    /*padding:30px;
     display:flex;
     flex-direction:column;
     font-size:15px;
     line-height: 2.5;
-    height: auto; 
+    height: auto; */
+    width: 100%;
+  max-width: 800px;
+  padding: 30px;
 }
 
 .about h1{
@@ -55,19 +72,31 @@
 
 @media(max-width:768px){
   .aboutme{   
-    display: flex;
-    flex-direction:column;
-    margin-top:20px;
+   /* display: flex;
+    flex-direction:column;*/
+    
+    
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding:30px;
+    height: auto;
     
 }
  .mypicture {
- 
-   align-items:center;  
+   /*box-sizing:border-box;
+   height: 100%; 
+   padding:30px;  
+   padding-bottom:0px; 
+   align-items:center;*/
+    max-width: 100%;
  
   
 }
  .about{
+    
     padding:30px;
+    padding-top:0px;
     display:flex;
     flex-direction:column;
     font-size:15px;
