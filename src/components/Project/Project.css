@@ -1,11 +1,10 @@
 .projectlist{
   
-    background-color:#bccad6;
+ 
     display: flex;
     justify-content: center;
     flex-direction:column;
-    align-items: center;
-    margin-top:0px;
+    align-items: start;
     gap:20px;
     justify-content:space-evenly;
     height: 100%; 
@@ -18,62 +17,69 @@
 }
 
 .projectPanel {
+  margin-top:25px;
   font-family: sans-serif; 
   padding: 10px;
   display: flex;
-  background: #bccad6;
   border: 1px outset gray; 
   grid-gap: 5px;
   flex-direction:column;
-  width:100%;
+   width:100%;
 }
 
 .project-title {
+  display:flex;
   font-size: 20pt;
   font-weight: 200; 
   border-bottom: 1px outset gray;
   padding-bottom:10px;
+  justify-content:flex-start;
   
   
 }
 
 .projectPanel img {
-  background:#bccad6;
-  max-width:100px;
-  max-height:100px;
+ 
+  max-width:200px;
+  max-height:200px;
 }
 
 .project-info {
-  background:#bccad6;
-  display: flex;
-  flex-direction:row;
-  gap:10px;
-  
+   display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  text-align: center; 
+  gap: 10px;
+ 
  
 }
+.project-info a {
+  
+  color:black;
+  
+ 
 
-
-
-.project-info a span {
-  color: #007bff; /* Set the span color */
-  transition: color 0.3s ease; /* Add a smooth transition for color change */
 }
 
-/* Apply styles to the span when it is hovered */
+.project-info a span {
+  color: LightCoral; 
+  transition: color 0.3s ease; 
+}
+
+
 .project-info a:hover span {
-  color: #ff6347; /* Change the span color on hover */
+  color: blue;
 }
 
 @media (max-width: 768px) {
 
 .projectlist{
   
-    background-color:#bccad6;
+   
     display: flex;
     justify-content: center;
     flex-direction:column;
     align-items: center;
-    margin-top:0px;
     gap:20px;
     justify-content:space-evenly;
     height: 100%; 
@@ -89,28 +95,24 @@
 
  .project-title {
   box-sizing:border-box;
-  font-size: 16pt;
-  font-weight: 200;
+  
   padding: 5px;
   border-bottom: 0.5px outset gray;
-  background:#bccad6;
   display: flex;
   
  
- 
 }
 
-.projectPanel img {
-   
-  background:#bccad6;
+ .projectPanel {
+  margin-top:10px;
+  font-family: sans-serif; 
+  display: flex;
+  border: 1px, gray; 
+  grid-gap: 5px;
+  flex-direction:column;
+  width:100%;
+  
 }
-
-.project-info {
-  background:#bccad6;
-  overflow:hidden;
- 
-}
-
 
 
 

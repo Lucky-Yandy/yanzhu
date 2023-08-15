@@ -1,25 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-
-header{
-  font-family: sans-serif;
-  background-color:#667292;
+* {
+ margin:0;
+ padding:0;
+ font-family:'Poppinns', sans-serif;
+ box-sizing:border-box;
 }
+.custom {
+  color: white;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold; 
+  
+ 
+  
+}
+
+.Icontainer{
+ width:100%;
+ height:100vh;
+}
+
+
+
 li{
  list-style:none;
 }
 a{
-  color:black;
+  color:white;
   text-decoration:none;
 }
 
 .navbar{
-  font-family: sans-serif;
-  min-height:70px;
+  width:100%;
+  height:5em;
   display:flex;
-  justify-content:space-between;
-  align-items:center;
   padding:0 24px;
-  flex-wrap: wrap;
+  background-color:rgb(37, 39, 53);
+  padding:1em;
+  justify-content:space-between;
+  padding-right:40px;
+  padding-left:40px;
   
 }
 .nav-menu{
@@ -27,101 +48,130 @@ a{
   justify-content:space-between;
   align-items:center;
   gap:60px;
+  
+  
+  
  
 }
-.nav-branding{
-  font-size:2rem;
-  font-family: sans-serif;
-  
-}
+
 
 .nav-link{
-  transition:0.7s ease;
+  transition:0.5s ease;
 }
 
 .nav-link:hover{
-      color:#f1e3dd;
+      color:LightCoral;
+      font-size:25px;
  }
+
+
+
 .hamburger{
  display:none;
  cursor:pointer;
 }
 
-.bar{
+.custom-active{
+  display:none;
 
-  display:block;
-  width:35px;
-  height:5px;
-  margin:5px auto;
-  /*-webkit-transition: all 0.1s ease-in-out;
-  transition: all 0.3s ease-in-out;*/
-  background-color: black;
+
+}
+ 
+
+
+.bar {
+  width: 50px;
+  height: 4px;
+  background-color:white;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
-@media(max-width:768px){
- .hamburger{
-   display:block;
- }
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(13px) rotate(45deg);
+  
+  
+}
 
- .hamburger.active .bar:nth-child(2){
-   opacity:0;
- }
- .hamburger.active .bar:nth-child(1){
-   opacity:0;
-   /*transform:translateY(10px) rotate(45deg);*/
- }
- .hamburger.active .bar:nth-child(3){
-   opacity:0;
-  /* transform:translateY(-10px) rotate(-45deg);*/
- }
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-13px) rotate(-45deg);
+  
+}
+
+
+@media(max-width:768px){
+ .hamburger {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  position: absolute; /* Position the hamburger */
+  top: 30px; /* Adjust the top value as needed */
+  right:60px; /* Position on the right side */
+  
+}
+
+ 
  
  .display-column {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(37, 39, 53);
+  width: 150px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+ 
 }
+.custom {
+  color: white;
+  font-size:40px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold; 
+  width:200px;
+  height:100px;
+  margin-left:0px;
+   
+}
+.custom-active{
+  display:none;
 
+
+}
+ 
  
  .nav-menu{
-  position:absolute;
-  right:-100%;
-  width:20%; 
-  /*transition:0.3s;  */
-  display: flex; /* Added display: flex to enable Flexbox */
-  justify-content: center; /* Center items horizontally */
-  gap:10px;
-  
-  
-
+  position: absolute;
+  top: -120%; 
+  width: 20%;
+  transition: 0.01s;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+ 
  }
- .nav-menu a {
-  text-decoration: underline;
-  color: black;
-}
-
- .nav-branding{
-  font-size:2rem;
-
-}
-.navbar{
-  min-height:70px;
-  display:flex; 
-  align-items:center;
-  padding:0 10px;
-  
-  
-  
-}
+ 
  
  
  .nav-menu-active{
-  right:0; 
-  position:relative;
-  width:20%; 
-  display: flex; /* Added display: flex to enable Flexbox */
-  justify-content: center; /* Center items horizontally */
-  gap:10px;
+  right: 0;
+  position: absolute; 
+  top: 20%; 
+  width: 30%;
+  transition: 0.1s;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center; 
+  justify-content: center;
+  padding-right:50%;
+  
   
  
  }

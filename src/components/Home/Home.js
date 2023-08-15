@@ -21,9 +21,9 @@ const Home = () => {
          and coordinating diverse teams of game designers, artists, and software developers.
          </p>
         
-       <TextAnim name=" Focus On Front-end Web Development" 
+       <TextAnim name="Front-end Web Development" 
                    size={2} type="flipvertical"
-                   color="white"
+                   color="LightCoral"
                    count="infinite"
                   duration={2}/> 
           {/*<div className="colorfulAnamition">        

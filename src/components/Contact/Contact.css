@@ -1,27 +1,39 @@
 .contact {
   font-family: sans-serif; 
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding:30px;
-  background-color: #bccad6;
-  margin-top: 0px;
+  flex-direction:row;
   height: 100vh;
+  width:100%;
+  margin-top:30px;
+  
+  
 
 }
 
+
 .hands {
-  width: 100%;
-  max-width: 50%;
-  height: auto;
-  padding: 30px;
+  width:100%;
+  height:100%;
+ /*border: 3px solid #ccc;*/
+  border: white;
+  border-radius: 5px;
+  padding-left:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-right:50px;
  
 }
 
 .contactpart {
-  width: 100%;
-  max-width: 800px;
-  padding: 30px;
+  width:100%;
+  height:50%;
+  padding-left:30px;
+  padding-right:50px;
+ 
+  
+ 
+  
 }
 
 h1 {
@@ -29,6 +41,7 @@ h1 {
   font-size: 30px;
   font-family: sans-serif; 
   font-weight: bold;
+  padding-bottom:50px;
 }
 
 .contact-form {
@@ -41,11 +54,11 @@ h1 {
 input[type="text"],
 input[type="email"],
 textarea {
-  
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 5px;
+  background-color: lightgray; 
 }
 
 textarea {
@@ -55,11 +68,12 @@ textarea {
 button[type="submit"] {
   
   padding: 10px;
-  background-color: #667292;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  border: 3px solid #ccc;
+  background-color:rgb(37, 39, 53);
 }
 
 
@@ -78,13 +92,12 @@ button[type="submit"] {
   width: 150px;
   height: 150px;
   transition: transform 0.5s ease;
+  
 }
 button[type="submit"]:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
-
-
 
 
 .link-img:hover {
@@ -94,26 +107,49 @@ button[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .contact {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding:30px;
-    height: auto;
-  }
-
-  .hands {
-    max-width: 100%;
-  
-  }
-
-  .contactpart {
+    font-family: sans-serif; 
+    display: flex;
+    flex-direction:column;
+    height: 100vh;
+    width:100%;
+    justify-content:center;
    
-    padding-left: 30px;
+  
     
   }
 
-  .link-img {
-    width: 100px;
-    height: 100px;
+  .hands {
+    width:100%;
+   height:100%;
+ /*border: 3px solid #ccc;*/
+   border: white;
+  border-radius: 5px;
+  padding-left:20px;
+  padding-top:0px;
+  padding-bottom:20px;
+  padding-right:20px;
+  
   }
+
+ .contactpart {
+  width:100%;
+  padding-left:20px;
+  padding-right:20px;
+ 
+  
+ 
+  
+}
+
+ .link-img {
+    width: 70px;
+    height: 70px;
+  }
+ .link-img:hover {
+    transform: scale(1.2);
+     cursor: pointer;
+    
+} 
+  
+  
 }

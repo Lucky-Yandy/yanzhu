@@ -7,7 +7,7 @@ const Project = () => (
   <div>
       <div className="projectlist">
       <div className="projectPanel">
-          <h1 className="project-title"> Currency Convert</h1>
+          <h1 className="project-title"> Currency Conversion</h1>
           <div className="project-info"> 
             <img src={img} alt="img" />  
             <a href="https://github.com/Lucky-Yandy">This is the first app I made. Check it out:<span>http://link to first app</span></a>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './Contact.css';
-import hiring from '../../images/deal.jpg';
+import hiring from '../../images/shakehand.webp';
 import github from '../../images/icons8-github-100.png';
 import linkedin from '../../images/icons8-linkedin-100.png';
 

@@ -1,111 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-.aboutme{
-    /*font-family: sans-serif;
-    background-color:#bccad6;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-top:0px;
-    gap:30px;
-    justify-content:space-evenly;
-    height: auto; 
-    padding-top:50px;*/
-    
+.aboutme{   
   font-family: sans-serif; 
   display: flex;
   flex-direction: row;
   align-items: center;
   padding:30px;
-  background-color: #bccad6;
   margin-top: 0px;
-  height: 100vh;
+  height: 100%;
+  
      
 }
 
 .mypicture{ 
-   /*box-sizing:border-box;
-   width:100%;
-   height: 100%; 
-   padding:30px; 
-   align-items:center;  */ 
-   width: 100%;
-  max-width: 50%;
-  height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
   padding: 30px;
 }
     
 .about{
-
-    /*padding:30px;
-    display:flex;
-    flex-direction:column;
-    font-size:15px;
-    line-height: 2.5;
-    height: auto; */
-    width: 100%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 100%;
   padding: 30px;
 }
 
 .about h1{
-   font-size:70px;
+   font-size:170px;
    font-family: 'Dancing Script', cursive;
    font-weight: bold;
    text-align: left;
+   margin-bottom:50px;
+   color:LightCoral;
 }
 .about :nth-child(2) {
    
    font-family: sans-serif;
    font-weight: bold;
    font-size:25px;
+   padding-bottom:30px;
 }
 
-.colorfulAnamition{
-   color:white;
-   font-size:30px;
 
-
+.about :nth-child(3) {
+   
+   padding-bottom:30px;
 }
 
 
 
 @media(max-width:768px){
   .aboutme{   
-   /* display: flex;
-    flex-direction:column;*/
-    
-    
     flex-direction: column;
     align-items: center;
-    height: auto;
-    padding:30px;
-    height: auto;
-    
+    padding:10px;
+    height: 100%;
+    font-family: sans-serif;    
 }
  .mypicture {
-   /*box-sizing:border-box;
-   height: 100%; 
-   padding:30px;  
-   padding-bottom:0px; 
-   align-items:center;*/
-    max-width: 100%;
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      padding: 20px;
  
   
 }
  .about{
     
-    padding:30px;
-    padding-top:0px;
-    display:flex;
-    flex-direction:column;
-    font-size:15px;
-    line-height: 2.5;
+   width: 100%;
+   max-width: 100%;
+   padding: 20px;
 }
- .about h1 {
-        display: none;
-      }
-
-
+ .about h1{
+   font-size:70px;
+   font-family: 'Dancing Script', cursive;
+   font-weight: bold;
+   text-align: left;
+   margin-bottom:0px;
+   color:LightCoral;
+   
+}
+.about :nth-child(2) {
+   
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size:25px;
+   padding-bottom:20px;
+   
+}
+.about :nth-child(3) {
+   
+   padding-bottom:30px;
+}
 
 }
