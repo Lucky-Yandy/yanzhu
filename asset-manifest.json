@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ecc0dd8.css",
+    "main.css": "/static/css/main.c5537318.css",
     "main.js": "/static/js/main.c6ee0e6a.js",
     "static/media/IMG_6739.jpg": "/static/media/IMG_6739.e28009081da64a0d3b73.jpg",
     "static/media/Yan-Zhu-Resume.pdf": "/static/media/Yan-Zhu-Resume.eb247e7729d25dd29023.pdf",
     "static/media/shakehand.webp": "/static/media/shakehand.57767e46837a18b0a3e8.webp",
     "index.html": "/index.html",
-    "main.1ecc0dd8.css.map": "/static/css/main.1ecc0dd8.css.map",
+    "main.c5537318.css.map": "/static/css/main.c5537318.css.map",
     "main.c6ee0e6a.js.map": "/static/js/main.c6ee0e6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ecc0dd8.css",
+    "static/css/main.c5537318.css",
     "static/js/main.c6ee0e6a.js"
   ]
 }
