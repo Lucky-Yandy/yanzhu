@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4651f03.css",
-    "main.js": "/static/js/main.c6ee0e6a.js",
+    "main.css": "/static/css/main.7f6e60dc.css",
+    "main.js": "/static/js/main.010e4239.js",
     "static/media/IMG_6739.jpg": "/static/media/IMG_6739.e28009081da64a0d3b73.jpg",
     "static/media/Yan-Zhu-Resume.pdf": "/static/media/Yan-Zhu-Resume.eb247e7729d25dd29023.pdf",
+    "static/media/currencyimage.png": "/static/media/currencyimage.8fc9e7d32e0867e96cce.png",
     "static/media/shakehand.webp": "/static/media/shakehand.57767e46837a18b0a3e8.webp",
     "index.html": "/index.html",
-    "main.c4651f03.css.map": "/static/css/main.c4651f03.css.map",
-    "main.c6ee0e6a.js.map": "/static/js/main.c6ee0e6a.js.map"
+    "main.7f6e60dc.css.map": "/static/css/main.7f6e60dc.css.map",
+    "main.010e4239.js.map": "/static/js/main.010e4239.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4651f03.css",
-    "static/js/main.c6ee0e6a.js"
+    "static/css/main.7f6e60dc.css",
+    "static/js/main.010e4239.js"
   ]
 }
