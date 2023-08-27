@@ -7,10 +7,14 @@
  box-sizing:border-box;
 }
 .custom {
+  display:flex;
+  align-items: center;
+  
   color: white;
   font-size: 60px;
   font-family: 'Dancing Script', cursive;
   font-weight: bold; 
+  
   
  
   
@@ -41,6 +45,7 @@ a{
   justify-content:space-between;
   padding-right:40px;
   padding-left:40px;
+
   
 }
 .nav-menu{
@@ -61,7 +66,7 @@ a{
 
 .nav-link:hover{
       color:LightCoral;
-      font-size:25px;
+      
  }
 
 
@@ -80,7 +85,7 @@ a{
 
 
 .bar {
-  width: 50px;
+  width: 40px;
   height: 4px;
   background-color:white;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -108,10 +113,10 @@ a{
   flex-direction: column; 
   justify-content: space-between;
   cursor: pointer;
-  width: 40px;
+  width: 30px;
   height: 30px;
   position: absolute; /* Position the hamburger */
-  top: 30px; /* Adjust the top value as needed */
+  top: 33px; /* Adjust the top value as needed */
   right:60px; /* Position on the right side */
   
 }
@@ -126,7 +131,7 @@ a{
   height: 100%;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 0px;
  
 }
 .custom {
@@ -137,6 +142,8 @@ a{
   width:200px;
   height:100px;
   margin-left:0px;
+  padding-bottom:40px;
+ 
    
 }
 .custom-active{

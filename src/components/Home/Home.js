@@ -16,7 +16,7 @@ const Home = () => {
       <div  className="about">
          <h1> Hello </h1>
          <p>A Bit About Me:</p>
-         <p>Seven years of experience as a Video Game Lead Writer & Narrative 
+         <p>I have seven years of experience as a Video Game Lead Writer & Narrative 
          Designer specializing  in crafting immersive game worlds 
          and coordinating diverse teams of game designers, artists, and software developers.
          </p>

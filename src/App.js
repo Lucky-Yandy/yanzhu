@@ -1,4 +1,4 @@
-
+import ReactDOM from 'react-dom';
 import './App.css';
 import React, { useState } from 'react';
 import {
@@ -43,7 +43,7 @@ function App() {
 		         <Link to='/home/' className="nav-link" onClick={handleNavLinkClick}>Home</Link>
 		      </li>
 		      <li className="nav-item">
-		        <Link to='/project/' className="nav-link" onClick={handleNavLinkClick}>Project</Link>
+		        <Link to='/project/' className="nav-link" onClick={handleNavLinkClick}>Projects</Link>
 		      </li>
 		      <li className="nav-item">
 		        <Link to='/resume/' className="nav-link" onClick={handleNavLinkClick}>Resume</Link>

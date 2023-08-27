@@ -40,8 +40,8 @@
 
 .projectPanel img {
  
-  max-width:200px;
-  max-height:200px;
+  max-width:100px;
+  max-height:100px;
 }
 
 .project-info {
@@ -54,7 +54,7 @@
  
 }
 .project-info a {
-  
+  max-width:100%;
   color:black;
   
  
@@ -114,7 +114,38 @@
   
 }
 
+.projectPanel img {
+ 
+  max-width:50px;
+  max-height:50px;
+}
 
+.project-info {
+   display: flex;  
+  align-items: center; 
+  text-align: center; 
+  gap: 10px;
+ 
+ 
+}
+.project-info a {
+  max-width:100%;
+  display:flex;
+  color:black;
+  flex-wrap:wrap;
+ 
+
+}
+
+.project-info a span {
+  color: LightCoral; 
+  transition: color 0.3s ease; 
+}
+
+
+.project-info a:hover span {
+  color: blue;
+}
 
 
 }

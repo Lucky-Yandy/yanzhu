@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './Contact.css';
-import hiring from '../../images/shakehand.webp';
+import hiring from '../../images/friends.png';
 import github from '../../images/icons8-github-100.png';
 import linkedin from '../../images/icons8-linkedin-100.png';
 
@@ -33,7 +33,7 @@ const Contact = () => {
             className="light-placeholder"
             required
           />
-          <input type="hidden" name="_next" value=" https://lucky-yandy.github.io/form-submit/"/>
+          <input type="hidden" name="_next" value="https://lucky-yandy.github.io/form-submit/"/>
           <button type="submit">Submit</button>
          </form>
         

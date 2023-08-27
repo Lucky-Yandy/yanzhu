@@ -1,11 +1,14 @@
 .contact {
+
   font-family: sans-serif; 
+  
   display: flex;
+  flex-direction: row;
   align-items: center;
-  flex-direction:row;
-  height: 100vh;
-  width:100%;
-  margin-top:30px;
+  
+  padding:30px;
+  margin-top: 30px;
+  height: 100%;
   
   
 
@@ -13,23 +16,20 @@
 
 
 .hands {
-  width:100%;
-  height:100%;
- /*border: 3px solid #ccc;*/
-  border: white;
-  border-radius: 5px;
-  padding-left:50px;
-  padding-top:50px;
-  padding-bottom:50px;
-  padding-right:50px;
+   width: 50%;
+  max-width: 100%;
+  height: 100%;
+  padding: 30px;
  
 }
 
 .contactpart {
-  width:100%;
-  height:50%;
-  padding-left:30px;
-  padding-right:50px;
+  width: 50%;
+  max-width: 100%;
+ 
+  border:1px solid rgb(37, 39, 53);
+  
+  
  
   
  
@@ -41,24 +41,30 @@ h1 {
   font-size: 30px;
   font-family: sans-serif; 
   font-weight: bold;
-  padding-bottom:50px;
+  padding-top:10px;
+  padding-bottom:20px;
+  
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.0;
+  padding-left:20px;
+  padding-right:20px;
+ 
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 3px solid #ccc;
   border-radius: 5px;
   background-color: lightgray; 
+  
 }
 
 textarea {
@@ -74,6 +80,7 @@ button[type="submit"] {
   cursor: pointer;
   border: 3px solid #ccc;
   background-color:rgb(37, 39, 53);
+  
 }
 
 
@@ -85,12 +92,14 @@ button[type="submit"] {
 .links {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 10px;
+ 
+  
 }
 
 .link-img {
-  width: 150px;
-  height: 150px;
+  width: 70px;
+  height: 70px;
   transition: transform 0.5s ease;
   
 }
@@ -107,34 +116,28 @@ button[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .contact {
-    font-family: sans-serif; 
-    display: flex;
-    flex-direction:column;
-    height: 100vh;
-    width:100%;
-    justify-content:center;
-   
+      flex-direction: column;
+     align-items: center;
+     padding:10px;
+    height: 100%;
+    font-family: sans-serif;  
+    margin-top:0; 
   
     
   }
 
   .hands {
-    width:100%;
-   height:100%;
- /*border: 3px solid #ccc;*/
-   border: white;
-  border-radius: 5px;
-  padding-left:20px;
-  padding-top:0px;
-  padding-bottom:20px;
-  padding-right:20px;
+    width: 100%;
+      max-width: 100%;
+      height: 100%;
+      padding: 20px;
   
   }
 
  .contactpart {
-  width:100%;
-  padding-left:20px;
-  padding-right:20px;
+   width: 100%;
+   max-width: 100%;
+   padding: 20px;
  
   
  
@@ -142,8 +145,8 @@ button[type="submit"]:hover {
 }
 
  .link-img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
   }
  .link-img:hover {
     transform: scale(1.2);
