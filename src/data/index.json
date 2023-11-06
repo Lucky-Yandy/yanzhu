@@ -1,0 +1,58 @@
+{
+ "skills":[
+ {
+ "id":1,
+ "src":"./img/product-chain-1.png",
+ "title":"Front-End",
+ "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
+
+ },
+ {
+ "id":2,
+ "src":"./img/product-chain-1.png",
+ "title":"Back-End",
+ "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
+ 
+ },
+ {
+ "id":3,
+ "src":"../img/product-chain-1.png",
+ "title":"UI/UX Design",
+ "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
+ 
+ },
+ {
+ "id":4,
+ "src":"../img/product-chain-1.png",
+ "title":"UI/UX Design",
+ "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
+ 
+ }
+
+],
+
+"portfolio":[
+ {
+ "id":1,
+ "src":"./img/lampstore3.png",
+ "title":"Lamp Store",
+ "description":"I developed this shopping cart using Figma for UI/UX design and implemented it with JavaScript, React, CSS, HTML, Node.js, and Context API.",
+  "link":"https://lucky-yandy.github.io/lamp-store/"
+ },
+ {
+ "id":2,
+ "src":"./img/currency.png",
+ "title":"Currency Conversion",
+ "description":"I developed a currency converter application using React, CSS, and HTML. It provides real-time currency rates for precise conversions among 100+ currencies.",
+ "link":"http://currency.yanzhu.tech/"
+ },
+ {
+ "id":3,
+ "src":"../img/github3.png",
+ "title":"GitHub Dashbord",
+ "description":"Developed a GitHub Dashboard using Python and Django, featuring a Pygal-based dashboard style format.",
+ "link":"https://github.com/Lucky-Yandy/django-dashboard/"
+ }
+
+]
+}

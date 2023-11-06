@@ -13,6 +13,7 @@
     "react-pdf": "^7.3.3",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
     "text-animations-react": "^0.1.8",
     "typeit-react": "^2.6.4",
     "web-vitals": "^2.1.4"
