@@ -1,35 +1,5 @@
 {
- "skills":[
- {
- "id":1,
- "src":"./img/product-chain-1.png",
- "title":"Front-End",
- "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
 
- },
- {
- "id":2,
- "src":"./img/product-chain-1.png",
- "title":"Back-End",
- "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
- 
- },
- {
- "id":3,
- "src":"../img/product-chain-1.png",
- "title":"UI/UX Design",
- "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
- 
- },
- {
- "id":4,
- "src":"../img/product-chain-1.png",
- "title":"UI/UX Design",
- "description":"RR RRR R RRRRR RR RRRR RRRRR RRRRR RRRR RRR RRRRR RR RR RRR RRRR RRR"
- 
- }
-
-],
 
 "portfolio":[
  {

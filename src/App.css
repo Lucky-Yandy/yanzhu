@@ -332,6 +332,12 @@ h2 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
+
+.discriptionBoxSize{
+ width: 100%; /* Set a fixed width */
+  height: 200px;
+
+}
 .portfolio--section--card--content {
   display: flex;
   padding: 32px;
@@ -499,20 +505,39 @@ h2 {
     font-size: 68px;
     line-height: 70px;
   }
+.discriptionBoxSize{
+  width: 500px; /* Set a fixed width */
+  height: 150px;
 
+}
 }
 
 @media only screen and (max-width: 1600px) {
- 
+ .discriptionBoxSize{
+   width: 100%; /* Set a fixed width */
+  height: 200px;
+
+}
   
  }
+@media only screen and (max-width: 500px) {
+ .discriptionBoxSize{
+  width: 100%; /* Set a fixed width */
+  height: 450px;
 
+}
+}
 @media only screen and (max-width: 1200px) {
  .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   height:300px;
+}
+.discriptionBoxSize{
+  width: 100%; /* Set a fixed width */
+  height: 220px;
+
 }
 .portfolio--section--img > img {
   width: 100%;

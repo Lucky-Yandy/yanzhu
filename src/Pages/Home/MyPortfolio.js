@@ -17,12 +17,12 @@ function MyPortfolio(){
               <img src={item.src} alt="product pic"/> 
              </div>
               <div className="portfolio--section--card--content">
-                 <div  >
+                 <div className="discriptionBoxSize" >
                    <h3 className="portfolio--section--title">{item.title}</h3>
                    <p className="text-md projectDescriptionBox"> {item.description}</p>
                  </div>
-                  <button className="btn btn-primary project-button" >
-                  <a href={item.link} className="text-sm"></a>View In Github</button>
+                
+                  <a href={item.link} className="btn btn-primary project-button">View In Github</a>
              </div>
           </div>)
         )}

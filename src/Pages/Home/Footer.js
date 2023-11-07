@@ -68,7 +68,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="www.linkedin.com/in/yanzhu-tech"
+                href="https://www.linkedin.com/in/yanzhu-tech/"
                 className="navbar--content"
               
               ><img src="./img/Linkedin.png" alt="img" className="footer--img" />
