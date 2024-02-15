@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div className="circle-container">
-          <p className="circle-text">yan</p>
+           <img src="./img/yanlogo.png"  className="logosize"/>
         </div>
         <div className="footer--items">
            <ul>

@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="circle-container">
-        <p className="circle-text">yan</p>
+       <img src="./img/yanlogo.png"  className="logosize"/>
       </div>
       <a href="#"
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -82,7 +82,7 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-10}
               duration={500}
               to="Resume"
               className="navbar--content"

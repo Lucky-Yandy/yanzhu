@@ -13,7 +13,7 @@ import React from 'react';
              Developer
             </h1>
             <p className="hero--section-description">
-            Frontend Software Developer specializing in the design, development and deployment of responsive web applications with JavaScript, TypeScript and the MERN stack (MongoDB, Express.js, React, Node.js).
+           Full-stack Software Developer specializing in the design, development and deployment of responsive web applications with JavaScript, TypeScript and the MERN stack (MongoDB, Express.js, React, Node.js).
              <br/> With seven years of experience designing narratives for games such as Pocket Knights 2, I blend art with algorithms to craft experiences that resonate.
             </p>
           </div>

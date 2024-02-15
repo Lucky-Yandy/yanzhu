@@ -18,13 +18,13 @@ const Resume = () => {
              <div>
 	      <iframe 
 	      title="Resume Document"
-	      src="https://docs.google.com/document/d/1d6ebljgQOJAYGtY8FMeiW-gW4yc9SLT02hTmn8FwQko/preview" 
+	      src="./img/Yan Zhu.pdf" 
 	      className="resume-iframe" 
 	      scrolling="yes" 
 	      width="100%" 
 	      height="600" ></iframe>
 	      <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                <a href="./img/yanzhu_resume.pdf" download className="btn btn-primary">
+                <a href="./img/Yan Zhu.pdf" download className="btn btn-primary">
               Download
           </a>
          </div>

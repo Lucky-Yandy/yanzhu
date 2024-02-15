@@ -22,6 +22,13 @@
  "title":"GitHub Dashbord",
  "description":"Developed a GitHub Dashboard using Python and Django, featuring a Pygal-based dashboard style format.",
  "link":"https://github.com/Lucky-Yandy/django-dashboard/"
+ },
+ {
+ "id":4,
+ "src":"../img/villaspain.png",
+ "title":"villaspain.nl",
+ "description":"build a house booking website for my first client as a web developer freelancer.",
+ "link":"https://villaspain.nl"
  }
 
 ]
