@@ -280,7 +280,7 @@ h2 {
 .hero--section--img > img {
     max-width:60%; 
     height: auto;
-    border-radius: 50%; 
+    border-radius: 5px; 
     
 }
 /* Hero Section Style Ends */
