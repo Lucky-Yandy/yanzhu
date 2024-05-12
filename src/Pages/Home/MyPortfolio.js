@@ -3,13 +3,7 @@ function MyPortfolio(){
 
  return(
     <section id="MyPortfolio" className="portfolio--section">
-      <div className="portfolio--container--box">
-        <div className="portfolio--container">
-           
-            <h2 className="section--heading">My Projects</h2>
-        </div> 
-       
-      </div>
+      <h2 className="section--heading">My Projects</h2>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index)=>(
           <div key={index} className="portfolio--section--card">
