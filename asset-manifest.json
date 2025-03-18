@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yanzhu/static/css/main.0785e255.css",
-    "main.js": "/yanzhu/static/js/main.72df4da2.js",
+    "main.js": "/yanzhu/static/js/main.69d72998.js",
     "static/media/villaspain.png": "/yanzhu/static/media/villaspain.7e9b6f5e9e6ca3164f47.png",
     "static/media/lampstore3.png": "/yanzhu/static/media/lampstore3.ac15ce1654ac012d57b1.png",
     "static/media/yanzhu_img.png": "/yanzhu/static/media/yanzhu_img.e28009081da64a0d3b73.png",
@@ -11,10 +11,10 @@
     "static/media/Linkedin.png": "/yanzhu/static/media/Linkedin.cf78b0a233d623185e1a.png",
     "index.html": "/yanzhu/index.html",
     "main.0785e255.css.map": "/yanzhu/static/css/main.0785e255.css.map",
-    "main.72df4da2.js.map": "/yanzhu/static/js/main.72df4da2.js.map"
+    "main.69d72998.js.map": "/yanzhu/static/js/main.69d72998.js.map"
   },
   "entrypoints": [
     "static/css/main.0785e255.css",
-    "static/js/main.72df4da2.js"
+    "static/js/main.69d72998.js"
   ]
 }
